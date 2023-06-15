@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://de83fuinwc788"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_xo4ts"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_xo4ts")
+
+[node name="Line2D" type="Line2D" parent="."]
+width = 16.0
+default_color = Color(0.509804, 1, 0.568627, 1)
+joint_mode = 1
+begin_cap_mode = 2
+end_cap_mode = 2
